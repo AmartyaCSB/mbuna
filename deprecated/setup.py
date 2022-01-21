@@ -35,8 +35,8 @@ setup(
     ],
 
     keywords='behavior, ethology, cv, yolov5, fiftyone',
-    packages=find_packages(),
+    packages=find_packages(exclude=['yolov5', 'yolov5.*']),
     python_requires='>=3.7, <3.10',
-    install_requires=['yolov5', 'fiftyone'],
+    install_requires=['fiftyone'],
     entry_points={"console_scripts": ["mbuna=mbuna.core.cli:main"]},
 )
