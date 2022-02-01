@@ -1,7 +1,7 @@
 # Datasets
 datasets/
 datasets/*
-!datasets/sample
+!datasets/demo
 
 
 # Byte-compiled / optimized / DLL files

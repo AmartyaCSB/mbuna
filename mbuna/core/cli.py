@@ -61,6 +61,7 @@ class ValCommand(focli.Command):
     def execute(parser, args):
         val(args)
 
+
 class DetectCommand(focli.Command):
     """Run inference on images, videos, directories, streams, etc."""
     @staticmethod
@@ -71,6 +72,7 @@ class DetectCommand(focli.Command):
     def execute(parser, args):
         detect(args)
 
+
 class ExportCommand(focli.Command):
     """Export a YOLOv5 PyTorch model to other formats"""
     @staticmethod
@@ -80,6 +82,7 @@ class ExportCommand(focli.Command):
     @staticmethod
     def execute(parser, args):
         export(args)
+
 
 def main(args=None):
     """Executes the `mbuna` tool with the given command-line args."""
