@@ -9,6 +9,14 @@ from mbuna.yolov5.export import setup_parser as export_setup
 from mbuna.yolov5.train import setup_parser as train_setup
 from mbuna.yolov5.val import setup_parser as val_setup
 
+"""
+command line interface. Structured based on the fiftyone CLI, fiftyone/core/cli.py. 
+
+From fiftyone.core.cli.Command: 
+Command instances must implement the `setup()` method, and they should
+implement the `execute()` method if they perform any functionality beyond
+defining subparsers.
+"""
 
 class MbunaCommand(focli.Command):
     """The mbuna command-line interface."""
