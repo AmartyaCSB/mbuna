@@ -1,5 +1,4 @@
 # Datasets
-datasets/
 datasets/*
 !datasets/demo
 !datasets/demo/*
