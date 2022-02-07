@@ -1,7 +1,8 @@
-# Datasets
+# Repo Specific
 datasets/*
 !datasets/demo
 !datasets/demo/*
+*/credentials.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

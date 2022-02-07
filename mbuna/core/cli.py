@@ -1,3 +1,5 @@
+import os
+
 import mbuna.constants as coc
 import fiftyone.core.cli as focli
 from mbuna.yolov5.detect import main as detect
